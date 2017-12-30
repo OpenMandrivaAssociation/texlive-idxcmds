@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 0.2a
 Name:		texlive-idxcmds
-Version:	0.2a
-Release:	9
+Version:	0.2c
+Release:	1
 Summary:	Semantic commands for adding formatted index entries
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/idxcmds
