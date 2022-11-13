@@ -1,18 +1,12 @@
-# revision 31557
-# category Package
-# catalog-ctan /macros/latex/contrib/idxcmds
-# catalog-date 2013-08-31 22:39:59 +0200
-# catalog-license lppl1.3
-# catalog-version 0.2a
 Name:		texlive-idxcmds
-Version:	0.2c
-Release:	2
+Version:	54554
+Release:	1
 Summary:	Semantic commands for adding formatted index entries
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/idxcmds
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/idxcmds.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/idxcmds.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/idxcmds.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/idxcmds.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +17,12 @@ The package provides commands for adding formatted index
 entries; it arises from the author's work on large documents.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -39,7 +33,7 @@ entries; it arises from the author's work on large documents.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
