@@ -1,6 +1,6 @@
 Name:		texlive-idxcmds
 Version:	54554
-Release:	1
+Release:	2
 Summary:	Semantic commands for adding formatted index entries
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/idxcmds
