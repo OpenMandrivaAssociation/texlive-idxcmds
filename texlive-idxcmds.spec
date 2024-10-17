@@ -3,7 +3,7 @@ Version:	54554
 Release:	2
 Summary:	Semantic commands for adding formatted index entries
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/idxcmds
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/idxcmds
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/idxcmds.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/idxcmds.doc.r%{version}.tar.xz
